@@ -6,3 +6,6 @@ The front-end development tool is React Js which allows visualization to build t
 # BUILT WITH :
 Java
 MySQL
+# PREREQUISITIES:
+NetBean
+mysql
