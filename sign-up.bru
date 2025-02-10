@@ -1,0 +1,22 @@
+meta {
+  name: sign-up
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/v1/users/signUp
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "rupesh@gmail.com", 
+    "phoneNo": "29449494", 
+    "firstName": "Rupesh", 
+    "lastName": "Avhad", 
+    "gender": "M", 
+    "password": "root"
+  }
+}

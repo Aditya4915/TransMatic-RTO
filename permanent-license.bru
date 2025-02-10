@@ -1,0 +1,26 @@
+meta {
+  name: permanent-license
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/api/v1/licenses/permanent
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "licenseNo": "MH-08235970",
+    "firstName": "Rupesh", 
+    "middleName": "unknown", 
+    "lastName": "Award", 
+    "address": "Cidco", 
+    "city": "Nashik", 
+    "town": "Nashik", 
+    "age": 25,
+    "aadharNo": "4023-3030-2020", 
+    "gender": "M"
+  }
+}
